@@ -1,0 +1,57 @@
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+
+@ProviderFor(NotebookController)
+const notebookControllerProvider = NotebookControllerProvider._();
+
+final class NotebookControllerProvider
+    extends $NotifierProvider<NotebookController, SmartTravelNotebook> {
+  const NotebookControllerProvider._()
+      : super(
+          from: null,
+          argument: null,
+          retry: null,
+          name: r'notebookControllerProvider',
+          isAutoDispose: false,
+          dependencies: null,
+          $allTransitiveDependencies: null,
+        );
+
+  @override
+  String debugGetCreateSourceHash() => _$notebookControllerHash();
+
+  @$internal
+  @override
+  NotebookController create() => NotebookController();
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(SmartTravelNotebook value) {
+    return $ProviderOverride(
+      origin: this,
+      providerOverride: $SyncValueProvider<SmartTravelNotebook>(value),
+    );
+  }
+}
+
+String _$notebookControllerHash() =>
+    r'2d5d7b65dc9e2c8761cbf8499bea9ad7ad98cbd2';
+
+abstract class _$NotebookController extends $Notifier<SmartTravelNotebook> {
+  SmartTravelNotebook build();
+  @$mustCallSuper
+  @override
+  void runBuild() {
+    final created = build();
+    final ref = this.ref as $Ref<SmartTravelNotebook, SmartTravelNotebook>;
+    final element = ref.element as $ClassProviderElement<
+        AnyNotifier<SmartTravelNotebook, SmartTravelNotebook>,
+        SmartTravelNotebook,
+        Object?,
+        Object?>;
+    element.handleValue(ref, created);
+  }
+}

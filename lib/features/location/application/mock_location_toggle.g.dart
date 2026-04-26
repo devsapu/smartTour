@@ -1,0 +1,61 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'mock_location_toggle.dart';
+
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint, type=warning
+
+@ProviderFor(MockLocationToggle)
+const mockLocationToggleProvider = MockLocationToggleProvider._();
+
+final class MockLocationToggleProvider
+    extends $NotifierProvider<MockLocationToggle, MockLocationState> {
+  const MockLocationToggleProvider._()
+      : super(
+          from: null,
+          argument: null,
+          retry: null,
+          name: r'mockLocationToggleProvider',
+          isAutoDispose: false,
+          dependencies: null,
+          $allTransitiveDependencies: null,
+        );
+
+  @override
+  String debugGetCreateSourceHash() => _$mockLocationToggleHash();
+
+  @$internal
+  @override
+  MockLocationToggle create() => MockLocationToggle();
+
+  /// {@macro riverpod.override_with_value}
+  Override overrideWithValue(MockLocationState value) {
+    return $ProviderOverride(
+      origin: this,
+      providerOverride: $SyncValueProvider<MockLocationState>(value),
+    );
+  }
+}
+
+String _$mockLocationToggleHash() =>
+    r'4a07ca6e1bdb491a6b381ba6bb850aacf184bf7e';
+
+abstract class _$MockLocationToggle extends $Notifier<MockLocationState> {
+  MockLocationState build();
+  @$mustCallSuper
+  @override
+  void runBuild() {
+    final created = build();
+    final ref = this.ref as $Ref<MockLocationState, MockLocationState>;
+    final element = ref.element as $ClassProviderElement<
+        AnyNotifier<MockLocationState, MockLocationState>,
+        MockLocationState,
+        Object?,
+        Object?>;
+    element.handleValue(ref, created);
+  }
+}

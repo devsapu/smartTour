@@ -1,0 +1,91 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'smart_travel_notebook.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Trip _$TripFromJson(Map<String, dynamic> json) => Trip(
+      destination: json['destination'] as String,
+      budget: (json['budget'] as num).toDouble(),
+      preferences: (json['preferences'] as List<dynamic>)
+          .map((e) => e as String)
+          .toList(),
+    );
+
+Map<String, dynamic> _$TripToJson(Trip instance) => <String, dynamic>{
+      'destination': instance.destination,
+      'budget': instance.budget,
+      'preferences': instance.preferences,
+    };
+
+TimelinePoi _$TimelinePoiFromJson(Map<String, dynamic> json) => TimelinePoi(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      latitude: (json['latitude'] as num).toDouble(),
+      longitude: (json['longitude'] as num).toDouble(),
+      audioUrl: json['audioUrl'] as String,
+      whySuggested: json['whySuggested'] as String,
+      historicalContext: json['historicalContext'] as String? ?? '',
+      status: $enumDecodeNullable(_$PoiStatusEnumMap, json['status']) ??
+          PoiStatus.pending,
+      isIndoor: json['isIndoor'] as bool? ?? false,
+    );
+
+Map<String, dynamic> _$TimelinePoiToJson(TimelinePoi instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'title': instance.title,
+      'latitude': instance.latitude,
+      'longitude': instance.longitude,
+      'audioUrl': instance.audioUrl,
+      'whySuggested': instance.whySuggested,
+      'historicalContext': instance.historicalContext,
+      'status': _$PoiStatusEnumMap[instance.status]!,
+      'isIndoor': instance.isIndoor,
+    };
+
+const _$PoiStatusEnumMap = {
+  PoiStatus.pending: 'pending',
+  PoiStatus.arrived: 'arrived',
+  PoiStatus.skipped: 'skipped',
+};
+
+LiveContext _$LiveContextFromJson(Map<String, dynamic> json) => LiveContext(
+      latitude: (json['latitude'] as num?)?.toDouble() ?? 0,
+      longitude: (json['longitude'] as num?)?.toDouble() ?? 0,
+      weather: json['weather'] as String? ?? 'Clear',
+      timestamp: json['timestamp'] == null
+          ? null
+          : DateTime.parse(json['timestamp'] as String),
+    );
+
+Map<String, dynamic> _$LiveContextToJson(LiveContext instance) =>
+    <String, dynamic>{
+      'latitude': instance.latitude,
+      'longitude': instance.longitude,
+      'weather': instance.weather,
+      'timestamp': instance.timestamp.toIso8601String(),
+    };
+
+SmartTravelNotebook _$SmartTravelNotebookFromJson(Map<String, dynamic> json) =>
+    SmartTravelNotebook(
+      trip: Trip.fromJson(json['trip'] as Map<String, dynamic>),
+      timeline: (json['timeline'] as List<dynamic>)
+          .map((e) => TimelinePoi.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      liveContext:
+          LiveContext.fromJson(json['liveContext'] as Map<String, dynamic>),
+      memory:
+          (json['memory'] as List<dynamic>).map((e) => e as String).toList(),
+    );
+
+Map<String, dynamic> _$SmartTravelNotebookToJson(
+        SmartTravelNotebook instance) =>
+    <String, dynamic>{
+      'trip': instance.trip,
+      'timeline': instance.timeline,
+      'liveContext': instance.liveContext,
+      'memory': instance.memory,
+    };

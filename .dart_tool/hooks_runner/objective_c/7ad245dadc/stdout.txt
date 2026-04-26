@@ -1,0 +1,63 @@
+Running `(cd /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/; ANDROID_HOME=/Users/sapumalthepulangoda/Library/Android/sdk TMPDIR=/var/folders/6v/hrvtr7wj1qvc06pyt5xn_8j40000gn/T/ PATH=/Users/sapumalthepulangoda/.console-ninja/.bin:/Users/sapumalthepulangoda/.rbenv/shims:/opt/homebrew/Cellar/mongodb-community/6.0.6/bin/:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Applications/Cursor.app/Contents/Resources/app/resources/helpers:/Users/sapumalthepulangoda/.console-ninja/.bin:/Users/sapumalthepulangoda/.rbenv/shims:/opt/homebrew/Cellar/mongodb-community/6.0.6/bin/:/Users/sapumalthepulangoda/Library/Android/sdk/emulator:/Users/sapumalthepulangoda/Library/Android/sdk/tools:/Users/sapumalthepulangoda/Library/Android/sdk/tools/bin:/Users/sapumalthepulangoda/Library/Android/sdk/platform-tools:/Users/sapumalthepulangoda/Library/Android/sdk/emulator:/Users/sapumalthepulangoda/Library/Android/sdk/tools:/Users/sapumalthepulangoda/Library/Android/sdk/tools/bin:/Users/sapumalthepulangoda/Library/Android/sdk/platform-tools HOME=/Users/sapumalthepulangoda /opt/homebrew/share/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/package_config.json /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/objective_c/7ad245dadc/hook.dill --config=/Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/objective_c/7ad245dadc/input.json )`.
+INFO: 2026-04-26 10:15:07.043403: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-26 10:15:07.197726: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-04-26 10:15:07.212930: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/include/dart_api_dl.c -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-04-26 10:15:07.213326: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.c -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+INFO: 2026-04-26 10:15:07.213557: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/test/util.c -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/test/util.c.o
+
+INFO: 2026-04-26 10:15:07.213771: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/input_stream_adapter.m -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-26 10:15:07.214005: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/observer.m -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+
+.m.o
+
+INFO: 2026-04-26 10:15:07.214108: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/ns_number.m -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o
+
+INFO: 2026-04-26 10:15:07.214211: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/protocol.m -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o
+
+INFO: 2026-04-26 10:15:07.214361: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/sapumalthepulangoda/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c_bindings_generated.m -fpic -I src -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-26 10:15:07.359646: 
+INFO: 2026-04-26 10:15:07.359689: 
+INFO: 2026-04-26 10:15:07.359715: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+dl.c.o
+
+INFO: 2026-04-26 10:15:07.368755: 
+INFO: 2026-04-26 10:15:07.368802: 
+INFO: 2026-04-26 10:15:07.368815: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+
+INFO: 2026-04-26 10:15:07.374167: 
+INFO: 2026-04-26 10:15:07.374283: 
+INFO: 2026-04-26 10:15:07.374346: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/test/util.c.o
+
+INFO: 2026-04-26 10:15:07.374866: 
+INFO: 2026-04-26 10:15:07.374918: 
+INFO: 2026-04-26 10:15:07.374948: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o
+
+INFO: 2026-04-26 10:15:07.724733: 
+INFO: 2026-04-26 10:15:07.724786: 
+INFO: 2026-04-26 10:15:07.724799: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o
+
+INFO: 2026-04-26 10:15:07.734263: 
+INFO: 2026-04-26 10:15:07.734305: 
+INFO: 2026-04-26 10:15:07.734317: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o
+
+INFO: 2026-04-26 10:15:07.738126: 
+INFO: 2026-04-26 10:15:07.738168: 
+INFO: 2026-04-26 10:15:07.738184: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-04-26 10:15:07.760506: 
+INFO: 2026-04-26 10:15:07.760545: 
+INFO: 2026-04-26 10:15:07.760557: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-04-26 10:15:07.761029: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk -target arm64-apple-darwin -mmacos-version-min=13 /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/test/util.c.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o -o /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+
+INFO: 2026-04-26 10:15:07.934825: 
+INFO: 2026-04-26 10:15:07.934890: 
+INFO: 2026-04-26 10:15:07.934913: Generated /Users/sapumalthepulangoda/Documents/Workspace/ICET_DEMO/smartTour/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+
