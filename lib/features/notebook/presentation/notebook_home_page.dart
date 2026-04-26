@@ -16,18 +16,20 @@ class NotebookHomePage extends ConsumerStatefulWidget {
 }
 
 class _NotebookHomePageState extends ConsumerState<NotebookHomePage> {
+  late final geofence = ref.read(geofenceServiceProvider);
+
   @override
   void initState() {
     super.initState();
     Future.microtask(() async {
       await ref.read(notebookControllerProvider.notifier).generateInitialPlan();
-      await ref.read(geofenceServiceProvider).startTracking();
+      await geofence.startTracking();
     });
   }
 
   @override
   void dispose() {
-    ref.read(geofenceServiceProvider).stopTracking();
+    geofence.stopTracking();
     super.dispose();
   }
 
